@@ -1,7 +1,11 @@
-a = 1
-b=2
 #1 ####
-c= a+b
-c = c(1,3,4,5,6)
-title = c('man','lee','hyagon','dkd','sadk')
-df = data.frame(c,title)
+name = c('k','l','o','k','l')
+score = c(100,99,88,100,100)
+st = data.frame(name=name,score=score)
+st
+unique(name)
+duplicated(st)
+
+#2 ####
+table(st$name)
+table(st$score)
