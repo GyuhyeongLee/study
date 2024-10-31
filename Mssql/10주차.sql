@@ -117,16 +117,16 @@ CREATE TABLE mixedTBL (
 	name  NVARCHAR(10) NOT NULL,
 	addr NCHAR(2)  );
 GO
-INSERT INTO mixedTbl VALUES('LSG', '�̽±�', '����');
-INSERT INTO mixedTbl VALUES('KBS', '�����', '�泲');
-INSERT INTO mixedTbl VALUES('KKH', '���ȣ', '����');
-INSERT INTO mixedTbl VALUES('JYP', '������', '���');
-INSERT INTO mixedTbl VALUES('SSK', '���ð�', '����');
-INSERT INTO mixedTbl VALUES('LJB', '�����', '����');
-INSERT INTO mixedTbl VALUES('YJS', '������', '�泲');
-INSERT INTO mixedTbl VALUES('EJW', '������', '���');
-INSERT INTO mixedTbl VALUES('JKW', '������', '���');
-INSERT INTO mixedTbl VALUES('BBK', '�ٺ�Ŵ', '����');
+INSERT INTO mixedTbl VALUES('LSG', N'이승기', N'서울');
+INSERT INTO mixedTbl VALUES('KBS', N'김범수', N'경기');
+INSERT INTO mixedTbl VALUES('KKH', N'김경호', N'경북');
+INSERT INTO mixedTbl VALUES('JYP', N'조용필', N'전남');
+INSERT INTO mixedTbl VALUES('SSK', N'성시경', N'경기');
+INSERT INTO mixedTbl VALUES('LJB', N'임재범', N'경북');
+INSERT INTO mixedTbl VALUES('YJS', N'윤종신', N'충남');
+INSERT INTO mixedTbl VALUES('EJW', N'은지원', N'강원');
+INSERT INTO mixedTbl VALUES('JKW', N'조관우', N'경남');
+INSERT INTO mixedTbl VALUES('BBK', N'바비킴', N'경기');
 GO
 ALTER TABLE mixedTBL
 	ADD CONSTRAINT PK_mixedTBL_userID
